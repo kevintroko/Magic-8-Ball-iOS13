@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func ask(_ sender: UIButton) {
-        ball.image = ballArray[Int.random(in: 0...4)];
+        ball.image = ballArray.randomElement();
     }
     
 }
